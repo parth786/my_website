@@ -1,0 +1,188 @@
+
+.first_page{
+  height: 90vh;
+  text-align: center;
+}
+
+.face-container{
+max-width: 300px;
+margin-left:auto;
+margin-right: auto;
+margin-top: 100px;
+
+}
+
+.inside_my_name{
+  font-size: 35px;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
+
+.my_quote{
+  font-size: 30px;
+  font-family: cursive;
+  text-align: center;
+}
+
+.button_shortcuts{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.Download_Resume{
+
+}
+.second_page{
+  background-color: #1A1A1A;
+  color: white;
+  padding: 15px;
+}
+
+.about_title{
+  font-family: 'Audiowide', cursive;
+padding: 20px;
+margin-left: auto;
+margin-right: auto;
+max-width: 50%;
+max-height: 50%;
+margin-top: 25px;
+}
+
+.about_description{
+padding: 20px;
+font-family: 'ABeeZee', sans-serif;
+font-size: 15px;
+}
+
+.underline_white{
+  background-color: white;
+  height: 7px;
+  max-width: 65px;
+}
+.underline_black{
+  background-color: #1A1A1A;
+  height: 7px;
+  max-width: 65px;
+}
+
+.third_page{
+  background-color: white;
+  color: #1A1A1A;
+  padding: 15px;
+}
+
+.skillset_title{
+  font-family: 'Audiowide', cursive;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  max-height: 50%;
+  margin-top: 150px;
+
+}
+
+.skillset_description{
+  padding: 20px;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+.progress-bar-striped{
+  background-color: #1A1A1A !important;
+}
+
+.fourth_page{
+  background-color: #1A1A1A;
+  color: white;
+  padding: 15px;
+}
+
+.education_title{
+  font-family: 'Audiowide', cursive;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  max-height: 50%;
+  margin-top: 50px;
+}
+
+.education_description{
+padding: 20px;
+font-family: 'ABeeZee', sans-serif;
+}
+
+.university_name{
+  display: inline-block;
+  font-family: 'PT Serif', serif;
+}
+
+.course{
+
+}
+
+.campus_location{
+  float: right;
+}
+
+.fifth_page{
+  background-color: white;
+  color: #1A1A1A;
+  padding: 15px;
+}
+
+.projects_title{
+  font-family: 'Audiowide', cursive;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  max-height: 50%;
+  margin-top: 25px;
+}
+
+.projects_description{
+  padding: 10px;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+.sixth_page{
+  background-color: #1A1A1A;
+  color: white;
+  padding: 15px;
+}
+
+.connect_title{
+  font-family: 'Audiowide', cursive;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  max-height: 50%;
+
+}
+
+.connect_description{
+  margin-top: 50px;
+  padding: 10px;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+.connect_logos{
+  padding: 10px;
+  float: left;
+}
+
+.footer{
+  color: #1A1A1A;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'PT Serif', serif;
+
+}
+
+#my_name{
+  font-family: 'PT Serif', serif;
+}
