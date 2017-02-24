@@ -2,35 +2,56 @@
 <html>
 <head>
 <title>Parth Pathak</title>
-<link rel="stylesheet" type="text/css" href="Full_Web_page.css">
+
+    <link rel="stylesheet" type="text/css" href="styling.css">
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+
 <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+
 <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+
 <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 
+<!--     javascript-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!--     jQuery ui css-->
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<!--   jQuery ui-->
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    
 </head>
+    
+    
 <body>
+    
 <div class="fluid-container">
+    
+    
   <div class="first_page">
     <div class="face-container">
           <img src="profile_picture\20161125_195829100_iOS.jpg"
-           alt="Parth Pathak" class="img-rounded " width="250px;" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"/>
+           alt="Parth Pathak" class="img-rounded " width="250px;" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" id="my_picture"/>
+        
           <p class="inside_my_name" style="text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px darkblue;">Parth Pathak</p>
     </div>
     <div>
         <p class="my_quote">"I Believe In Learning Something New Everyday"</p>
     </div>
     <div class="button_shortcuts">
-        <button type="button" class="btn btn-default">About</button>
-        <button type="button" class="btn btn-default">Connect</button>
-        <button type="button" class="btn btn-default">Project</button>
+        <a href="#my_name"><button type="button" class="btn btn-default">About</button></a>
+        <a href="#connect_title"><button type="button" class="btn btn-default">Connect</button></a>
+        <a href="#projects_title"><button type="button" class="btn btn-default">Project</button></a>
     </div>
   <br />
     <div class="Download_Resume">
       <a href="resume\Resume.pdf" target="_blank"><button type="submit" class="btn btn-default">Download Resume</button></a>
     </div>
   </div>
+    
+    
   <div class="second_page">
     <div class="row">
       <div class="col-sm-4 ">
@@ -194,10 +215,13 @@
       </div>
     </div>
   </div>
+    
+    
+    
   <div class="fifth_page">
     <div class="row">
       <div class="col-sm-4 ">
-        <div class="projects_title">
+        <div class="projects_title" id="projects_title">
           <h1>PROJECTS</h1>
           <div class="underline_black">
           </div>
@@ -205,17 +229,56 @@
           <img src="images-2\laptop_projects.svg" width="70px"/>
         </div>
       </div>
+        
         <div class="col-sm-8 ">
-          <div class="projects_description">
-            <h3>Coming Soon...!!!</h3>
-          </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="projects_description">
+                        <img src="images_1/3.fruit_slice_game.png" id="project1">
+                        <h3>Fruit Slice Game</h3>
+                        <p></p>
+                        <p><b>Technology:</b> HTML5, CSS3 & jQuery UI</p>
+                        <p>
+                        <a href="projects/3.fruits_game/index.html" target="_blank"><button class="project_button view_project" id="project_1">View Project</button></a>
+                        <a href="#"><button class="project_button view_source" id="source_1">View Source</button></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4 container-fluid">
+                    <div class="projects_description" >
+                        <img src="images_1/2.maths_game.png" id="project2">
+                        <h3>Maths Game</h3>
+                        <p></p>
+                        <p><b>Technology:</b> HTML5, CSS3 & JavaScript</p>
+                        <p>
+                        <a href="projects/2.math_game_website/index.html" target="_blank"><button class="project_button view_project" id="project_2">View Project</button></a>
+                        <a href="#"><button class="project_button view_source" id="source_2">View Source</button></a>
+                        </p>
+                    </div>
+                </div>  
+                <div class="col-sm-4">
+                    <div class="projects_description" >
+                        <img src="images_1/1.maths_tutorials.png"id="project3">
+                        <h3>Maths Tutorials</h3>
+                        <p></p>
+                        <p><b>Technology:</b> HTML5 & CSS3</p>
+                        <p>
+                        <a href="projects/1.maths_website/Index.html" target="_blank"><button class="project_button view_project" id="project_3">View Project</button></a>
+                        <a href="#"><button class="project_button view_source" id="source_3">View Source</button></a>
+                        </p>
+                    </div>
+                </div>  
         </div>
+        </div>    
       </div>
   </div>
+    
+    
+    
   <div class="sixth_page">
     <div class="row">
       <div class="col-sm-4 ">
-        <div class="connect_title">
+        <div class="connect_title" id="connect_title">
           <h1>CONNECT</h1>
           <div class="underline_white">
           </div>
@@ -272,8 +335,16 @@
     </div>
     <div class="footer text-center">
       <footer>
-        <h5>Designed and Coded by <strong>Parth Pathak</strong> @ 2017<h5>
+          <h5>Designed and Coded by <strong>Parth Pathak</strong> @ 2017</h5>
       </footer>
     </div>
 </div>
+    
+<script src="javascript/main.js" type="text/javascript">
+   
+});
+    
+</script>  
+    
 </body>
+</html>
