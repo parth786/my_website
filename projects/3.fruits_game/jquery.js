@@ -8,7 +8,7 @@ var score;
 var trialsLeft;
 var step;
 var action; // used for set interval function
-var fruits = ["apple","banana","cherries","grapes","mango","orange","peach","pineapple","watermelon"];
+var fruits = ["apple", "banana", "cherries", "grapes", "mango", "orange", "peach", "pineapple", "watermelon"];
 
 $(function(){
     // Click on stsrt reset button
@@ -120,7 +120,7 @@ $("#fruit1").mouseover(function(){
    clearInterval(action);
 
     //hide fruit 
-    $("#fruit1").hide("explode",500); // slice
+    $("#fruit1").toggle( "explode" );// slice
     
     // bring new fruit
     setTimeout(startAction, 500);
@@ -141,7 +141,7 @@ function addHearts(){
 /// generate a random fruit
 
 function chooseFruit(){
-$("#fruit1").attr("src","images/" + fruits[Math.floor(Math.random()*8)] + ".png");
+$("#fruit1").attr("src","images/" + fruits[Math.round(Math.random()*8)] + ".png");
 
 }
 
