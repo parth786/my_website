@@ -9,13 +9,13 @@ $(function(){
     
     });
     
-    
-    $(".project_card").hover(function(){
-        $(this).addClass("animated jello");
-    });
-    
-    $(".project_card").mouseleave(function(){
-        $(this).removeClass("animated jello");
-    });
+//    
+//    $(".project_card").hover(function(){
+//        $(this).addClass("animated jello");
+//    });
+//    
+//    $(".project_card").mouseleave(function(){
+//        $(this).removeClass("animated jello");
+//    });
     
 });
