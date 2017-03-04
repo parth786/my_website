@@ -15,7 +15,7 @@ body, html {
 
 .navbar{
     border: 0;
-    background-color: rgba(0,0,0,0.5) ;
+    background-color: rgba(0,0,0,0.5);
 }
 
 #full_navbar{
@@ -152,7 +152,11 @@ body, html {
     padding: 10px;
     margin: 0;
     opacity: 0.9;
-    box-shadow: 0px 10px 20px black, 0px -10px 20px black ;
+    box-shadow: 0px 10px 20px black, 0px -10px 20px black;
+    -webkit-box-shadow: 0px 10px 20px black, 0px -10px 20px black;
+    -moz-box-shadow: 0px 10px 20px black, 0px -10px 20px black;
+    -ms-box-shadow: 0px 10px 20px black, 0px -10px 20px black;
+    -o-box-shadow: 0px 10px 20px black, 0px -10px 20px black;
 }
 #about_content{
     width: auto;
@@ -193,7 +197,11 @@ body, html {
     background-color: black;
     padding: 10px;
     margin: 0;
-    box-shadow: 0px 10px 20px black, 0px -10px 20px black ;
+    box-shadow: 0px 10px 20px black, 0px -10px 20px black;
+    -webkit-box-shadow: 0px 10px 20px black, 0px -10px 20px black;
+    -ms-box-shadow: 0px 10px 20px black, 0px -10px 20px black;
+    -moz-box-shadow: 0px 10px 20px black, 0px -10px 20px black;
+    -o-box-shadow: 0px 10px 20px black, 0px -10px 20px black;
     opacity: 0.9;
 }
 
@@ -221,6 +229,10 @@ body, html {
 
 .project_card{
     box-shadow: 0 4px 1px 0px white;
+    -webkit-box-shadow: 0 4px 1px 0px white;
+    -moz-box-shadow: 0 4px 1px 0px white;
+    -o-box-shadow: 0 4px 1px 0px white;
+    -ms-box-shadow: 0 4px 1px 0px white;
     border-radius: 5px;
     margin:30px;
     margin-left: auto;
@@ -238,6 +250,10 @@ body, html {
     height: auto;
     transition: 0.6s ease;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
 }
 
 .project_card:hover .content_overlay{
@@ -246,16 +262,23 @@ body, html {
 
 .content_middle{
     transition: 0.6s ease;
+    -webkit-transition: 0.6s ease;
+    -moz-transition: 0.6s ease;
+    -ms-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
     opacity: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 .project_card:hover .content_middle{
-  opacity: 1;
+    opacity: 1;
 }
 
 .content_button .btn{
@@ -273,6 +296,10 @@ body, html {
     width: 100%;
     height: 200px;
     filter: grayscale(0.5);
+    -webkit-filter: grayscale(0.5);
+    -ms-filter: grayscale(0.5);
+    -moz-filter: grayscale(0.5);
+    -o-filter: grayscale(0.5);
 }
 
 .project_container{
@@ -316,7 +343,6 @@ body, html {
     font-size: 18px;
     letter-spacing: 1.2px;
     word-spacing: 3px;
-
     font-weight: bold;
     text-align: center;
     font-family: 'Baloo Paaji', cursive;
@@ -349,7 +375,11 @@ body, html {
     background-color: black;
     padding: 10px;
     margin: 0;
-    box-shadow: 0px 10px 20px black, 0px -1px 20px black ;
+    box-shadow: 0px 10px 20px black, 0px -1px 20px black;
+    -webkit-box-shadow: 0px 10px 20px black, 0px -1px 20px black;
+    -moz-box-shadow: 0px 10px 20px black, 0px -1px 20px black;
+    -ms-box-shadow: 0px 10px 20px black, 0px -1px 20px black;
+    -o-box-shadow: 0px 10px 20px black, 0px -1px 20px black;
     opacity: 0.9;
 }
 
@@ -538,6 +568,7 @@ body, html {
         height: auto;
         font-size: 15px;
         margin:0px;
+        min-height: auto;
     }
     
     
