@@ -54,7 +54,7 @@ body, html {
 }
 
 #left_titles li{
-    width: 140px;
+    width: 135px;
     margin: 5px 5px;
     text-align: center;
 }
@@ -471,7 +471,7 @@ body, html {
     .navbar_titles{
         margin: 0;
         text-align: center;
-        font-size: 23px;
+        font-size: 15px;
     }
     
     #download_resume{
@@ -650,7 +650,7 @@ body, html {
     .navbar_titles{
         margin: 0;
         text-align: center;
-        font-size: 20px;
+        font-size: 12px;
     }
     
     #download_resume{
@@ -659,7 +659,7 @@ body, html {
     
     #left_titles li{
         width: 100%;
-        margin: 0px;   
+        margin: 0px;
     }
     
     #navbar-brand{
@@ -816,19 +816,27 @@ body, html {
     
 }
 
-
+@media only screen and (max-device-width: 1024px) {
+    
+     .parallax {
+        background-attachment: scroll;
+    }
+    
+    
+}
 
 
 @media (min-device-width:480px) and (max-device-width:768px){
      
-     .navbar{
+    .navbar{
         background: black;
     }
     
     .navbar_titles{
         margin: 0;
         text-align: center;
-        font-size: 23px;
+        font-size: 15px;
+        width: 100%;
     }
     
     #download_resume{
@@ -836,7 +844,7 @@ body, html {
     }
     
     #left_titles li{
-        width: 100%;
+/*        width: 100%;*/
         margin: 0px;
     }
     
@@ -896,7 +904,7 @@ body, html {
     
     .project_card{
         height: auto;
-        max-height: 460px;
+        min-height: 410px;
         width: auto;
     }
 
@@ -1001,7 +1009,7 @@ body, html {
    
     
     
-   .navbar{
+  .navbar{
         background: black;
     }
     
@@ -1009,7 +1017,7 @@ body, html {
     .navbar_titles{
         margin: 0;
         text-align: center;
-        font-size: 20px;
+        font-size: 12px;
     }
     
     #download_resume{
@@ -1018,7 +1026,7 @@ body, html {
     
     #left_titles li{
         width: 100%;
-        margin: 0px;   
+        margin: 0px;
     }
     
     #navbar-brand{
@@ -1172,15 +1180,12 @@ body, html {
          padding: 0px 5px;
     }
 
+
     
 }
 
 
-@media only screen and (max-device-width: 1024px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-}
+
 
 
 /*---------------------------------------------------------------------------------------------------------------------*/
